@@ -121,7 +121,7 @@ export interface AmazonPrimeNextItemResponse {
 
 class _AmazonPrimeApi extends ServiceApi {
 	HOST_URL = 'https://www.primevideo.com';
-	API_URL = 'https://atv-ps.primevideo.com';
+	API_URL = 'https://atv-ps-eu.primevideo.com';
 	SETTINGS_URL = `${this.HOST_URL}/settings`;
 	PROFILE_URL = `${this.HOST_URL}/gp/video/api/getProfiles`;
 	HISTORY_URL = `${this.HOST_URL}/gp/video/api/getWatchHistorySettingsPage?widgets=activity-history&widgetArgs=%7B%22startIndex%22%3A{index}%7D`;
