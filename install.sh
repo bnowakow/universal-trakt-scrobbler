@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# for trakt oauth error: https://github.com/trakt-tools/universal-trakt-scrobbler/issues/167
+
 #echo strict-peer-dependencies=false > .npmrc
 npm install --global web-ext
 npm install -g pnpm
